@@ -29,12 +29,12 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Runs every midnight                  | =0 0 * * * /root/mycommand.sh=                            |
 | Redirect output to log file          | =0 0 * * * /root/mycommand.sh >>/var/log/mycron.log 2>&1= |
 ** Cron job - common
-| Name                                 | Comment                                 |
-|--------------------------------------+-----------------------------------------|
-| Find crontab daemon process          | =pgrep crond=                           |
-| List cron jobs created by automation | =ls -lth /etc/cron*=                    |
-| List cron jobs created by me         | =crontab -l=                            |
-| Changing default crontab editor      | =export EDITOR=vim= [[https://askubuntu.com/questions/55022/changing-default-crontab-editor][Link: askubuntu.com]] |
+| Name                                 | Comment                                   |
+|--------------------------------------+-------------------------------------------|
+| Find crontab daemon process          | =pgrep crond=                             |
+| List cron jobs created by automation | =ls -lth /etc/cron*=                      |
+| List cron jobs created by me         | =crontab -l=                              |
+| [[https://askubuntu.com/questions/55022/changing-default-crontab-editor][Changing default crontab editor]]      | =export EDITOR=vim=, export VISUAL="nano" |
 ** At
 | Name                              | Comment       |
 |-----------------------------------+---------------|
@@ -67,7 +67,7 @@ License: Code is licencron under [[https://www.dennyzhang.com/wp-content/mit_lic
 #+LATEX_HEADER: \rhead{Updated: \today}
 #+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
 #+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-cron-A4}{GitHub: https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-cron-A4}}
-#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-slack-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-cron-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-cron-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-cron-A4}}
 #+AUTHOR: Denny Zhang
 #+EMAIL:  denny@dennyzhang.com
 #+TAGS: noexport(n)
@@ -416,3 +416,4 @@ Mar 24 20:52:37 carol-repo crontab[21913]: (root) LIST (root)
 
 ** TODO When crontab job has failed, get slack notification
 * TODO cron cheatsheet: https://jimmysong.io/cheatsheets/cron      :noexport:
+* TODO [#A] install crontab by command line                        :noexport:

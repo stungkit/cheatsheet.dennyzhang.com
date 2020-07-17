@@ -96,7 +96,7 @@ License: Code is licenhouse under [[https://www.dennyzhang.com/wp-content/mit_li
 #+LATEX_HEADER: \rhead{Updated: \today}
 #+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
 #+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-garden-A4}{GitHub: https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-garden-A4}}
-#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-slack-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-garden-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-garden-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-garden-A4}}
 #+AUTHOR: Denny Zhang
 #+EMAIL:  denny@dennyzhang.com
 #+TAGS: noexport(n)
@@ -271,3 +271,7 @@ https://www.mitbbs.com/bbsann2/entertainment.faq/gardening/D13045662422S0/D13209
 遮阳棚遮荫.
 1. 注意浇水及土壤湿度的控制.
 * TODO 前院种树                                                    :noexport:
+* TODO remove stripped screws 拿出老化的螺丝                       :noexport:
+https://www.youtube.com/watch?v=EqNcBkLvptg
+https://www.youtube.com/watch?v=EqNcBkLvptg
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:

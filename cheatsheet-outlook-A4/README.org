@@ -1,4 +1,4 @@
-* CheatSheet: Outlook                                              :Tools:
+* CheatSheet: Mailing - OutLook, Gmail                                :Tools:
 :PROPERTIES:
 :type:     tool
 :export_file_name: cheatsheet-outlook-A4.pdf
@@ -28,6 +28,17 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Outlook out of office message                        | =Tool -> Out of Office=                           |
 | Outlook out of office message templates              | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-outlook-A4/doc.md][Github Link]]                                       |
 | Define inbox rules for outlook emails                | Create/goto folder, check *Rules* from sub-menu   |
+| [[https://apple.stackexchange.com/questions/244959/outlook-apply-rule-to-past-messages][Outlook apply rule to past messages]]                  |                                                   |
+
+** Gmail
+| Name                               | Summary                              |
+|------------------------------------+--------------------------------------|
+| Filter gmail into different labels | [[https://www.yesware.com/blog/how-to-create-folders-in-gmail/][Link: How to Create Folders in Gmail]] |
+
+** Zoom
+| Name                           | Summary |
+|--------------------------------+---------|
+| Zoom change virtual background |         |
 
 ** More Resources
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
@@ -51,7 +62,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+LATEX_HEADER: \rhead{Updated: \today}
 #+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
 #+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-outlook-A4}{GitHub: https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-outlook-A4}}
-#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-slack-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-outlook-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-outlook-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-outlook-A4}}
 #+AUTHOR: Denny Zhang
 #+EMAIL:  denny@dennyzhang.com
 #+TAGS: noexport(n)
@@ -63,3 +74,8 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+LINK_UP:
 #+LINK_HOME:
 * TODO How to skip meeting invite without sending out any response :noexport:
+* TODO zoom save the video                                         :noexport:
+* TODO zoom background                                             :noexport:
+* HALF login to zoom. Then only share the screen                   :noexport:
+* TODO outlook: how to transfer the owner of a serie meeting       :noexport:
+https://superuser.com/questions/727471/how-do-i-transfer-meeting-ownership-in-outlook-2010

@@ -175,7 +175,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+LATEX_HEADER: \rhead{Updated: \today}
 #+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
 #+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-k8s-backup-A4}{GitHub: https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-k8s-backup-A4}}
-#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-slack-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-k8s-backup-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-k8s-backup-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-k8s-backup-A4}}
 #+AUTHOR: Denny Zhang
 #+EMAIL:  denny@dennyzhang.com
 #+TAGS: noexport(n)
@@ -216,3 +216,8 @@ func (a *backupPVAction) Execute(item runtime.Unstructured, backup *v1.Backup) (
 func (ib *defaultItemBackupper) backupItem(logger logrus.FieldLogger, obj runtime.Unstructured, groupResource schema.GroupResource) error {
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Blog: heptio backup                                         :noexport:
+* HALF velero backup                                               :noexport:
+velero backup create e2e-backup-denny --exclude-resources storageclasses.storage.k8s.io --selector workload=blog --storage-location default
+velero backup describe e2e-backup-denny
+* HALF check velero configuration                                  :noexport:
+velero get backup-location -o json
